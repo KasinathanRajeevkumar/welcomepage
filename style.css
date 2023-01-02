@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+
+
+}
+nav{
+    flex:1;
+    text-align:right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: circle;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right:20px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    color: #555;
+    font-size: 24;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.header{
+    background: radial-gradient(#fff,#ADD8E6)
+}
+
+video{
+    height: 500px;
+    width: 50%;
+}
